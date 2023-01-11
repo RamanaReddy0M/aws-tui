@@ -3,9 +3,12 @@ module github.com/aws-tui
 go 1.19
 
 require (
+	github.com/aws/aws-sdk-go v1.44.176
 	github.com/aws/aws-sdk-go-v2 v1.17.3
 	github.com/aws/aws-sdk-go-v2/config v1.18.8
+	github.com/aws/aws-sdk-go-v2/service/ec2 v1.77.0
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.30.0
+	github.com/spf13/cobra v1.6.1
 )
 
 require (
@@ -25,6 +28,6 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sts v1.18.0 // indirect
 	github.com/aws/smithy-go v1.13.5 // indirect
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect
-	github.com/spf13/cobra v1.6.1 // indirect
+	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 )
